@@ -1,0 +1,20 @@
+collect_caption.py          : export only caption to caption.txt
+collect_caption_bnk.py      : export only bnk caption to caption_bnk.txt
+collect_caption_sweat.py    : export only sweat caption to caption_sweat.txt
+
+count_word.py   : count word in caption use deepcut to cut word
+    create file word_count.txt 
+    create file word_count_bnk.txt 
+    create file word_count_sweat.txt 
+
+restructure.py          : make word_count.txt to new form and export to tocloud.txt
+restructure_bnk.py      : make word_count_bnk.txt to new form and export to tocloud_bnk.txt
+restructure_sweat.py    : make word_count_sweat.txt to new form and export to tocloud_sweat.txt
+
+build_wordcloud.py          : export wc.png
+build_wordcloud_bnk.py      : export wc_bnk.png
+build_wordcloud_sweat.py    : export wc_sweat.png
+
+words_sorted.txt    : sort to see trends
+
+stopword.txt        : some thai stopword list
